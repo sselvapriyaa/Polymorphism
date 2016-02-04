@@ -9,10 +9,6 @@ package experiments;
  *
  * @author Gladwin
  */
-public class Startup {
-    public static void main(String args[]){
-    Aves bird=new Indy();
-    System.out.println(bird.LifeCycle());
+public interface Aves {
+    public String LifeCycle();
 }
-}
-
